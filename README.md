@@ -23,4 +23,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 This is a prototype of the front-end of a file form.
 File form V0.1
 
+##Author
+
+Duru Ugochukwu
 
