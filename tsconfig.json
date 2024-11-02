@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "app/overview.js",
+    "app/product_features.js",
+    "app/test_campaign.js",
+    "test_case.js",
+    "app/product_choice.js",
+    "app/page.js",
+    "app/sidebar_menu.js",
+    "app/application_settings.js",
+    "dist/types/**/*.ts"
+, "app/ColumnContainer.js", "app/PlusIcon.js", "app/PlusIcon.js", "app/kaban.js"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
